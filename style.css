@@ -83,9 +83,8 @@ body * {
 }
 
 .light #switch button {
-  animation: slide-in 0.2s forwards;
-  right: 0;
-  left: initial;
+  animation: slide-in 0.4s forwards;
+  
 }
 
 #switch button:hover {
@@ -168,11 +167,30 @@ ul li a:hover {
 
 /* Media queries */
 @media (min-wifth: 700px) {
-  :root{
-    --bg-url: url(./assets/bg-desktop-dark.jpg)
+  :root {
+    --bg-url: url(./assets/bg-desktop-dark.jpg);
   }
 
   .light {
-    --bg-url: url(./assets/bg-desktop-light.jpg)
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
+
+/* animation */
+@keyframes slide-in {
+  from{
+    left:0;
+  }
+  to{
+    left:50%;
+  }
+}
+
+@keyframes slide-back {
+  from{
+    left:50%
+  }
+  to{
+    left: 0;
   }
 }
