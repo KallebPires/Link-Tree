@@ -1,0 +1,63 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+  background: linear-gradient(to bottom, #0a1128, #014270);
+}
+
+/* Centralizar o card na página */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+/* Estilo do card */
+.card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Imagem do card */
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Conteúdo do card */
+.card-content {
+    padding: 20px;
+}
+
+/* Título do card */
+.card-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Descrição do card */
+.card-description {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Botão */
+.card-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #02274f;
+}

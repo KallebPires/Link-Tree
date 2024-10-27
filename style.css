@@ -33,10 +33,7 @@ body * {
   color: var(--text-color);
 }
 
-#Projetos {
-  text-align: center;
-  margin: 54px;
-}
+
 
 #container {
   width: 100%;
