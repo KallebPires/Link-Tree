@@ -78,6 +78,9 @@ body * {
 
   animation: slide-back 0.2s;
 }
+.fullstack{
+  color:#659EB8
+}
 
 .light #switch button {
   animation: slide-in 0.2s forwards;
